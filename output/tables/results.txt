@@ -1,0 +1,22 @@
+Chi-square Test between risk and reward:
+Chi2=435.9867908394133, p=8.088801974471012e-97
+
+T-test for landing time:
+t=-0.2046916578335146, p=0.8378612475863287
+
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:                   risk   No. Observations:                  866
+Model:                          Logit   Df Residuals:                      863
+Method:                           MLE   Df Model:                            2
+Date:                Wed, 03 Sep 2025   Pseudo R-squ.:                0.004690
+Time:                        23:05:52   Log-Likelihood:                -596.86
+converged:                       True   LL-Null:                       -599.67
+Covariance Type:            nonrobust   LLR p-value:                   0.06006
+=============================================================================================
+                                coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+Intercept                     0.3061      0.187      1.634      0.102      -0.061       0.673
+seconds_after_rat_arrival     0.0004      0.000      1.251      0.211      -0.000       0.001
+hours_after_sunset           -0.0600      0.029     -2.081      0.037      -0.117      -0.004
+=============================================================================================
